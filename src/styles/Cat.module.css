@@ -1,0 +1,52 @@
+.siteContainer{
+    min-height: 94vh;
+    background-image: url('/cat-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.selectableCat{
+    width: 300px;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.selectableCat:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    /* height: 500px; */
+    width: 500px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+
+
+.catImg{
+    height: 500px;
+    object-fit: contain;
+}
